@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterhive/Screens/HomeScreen.dart';
 import 'package:flutterhive/Screens/LoginScreen.dart';
 import 'package:flutterhive/Screens/SignupScreen.dart';
+import 'package:flutterhive/Screens/SplashScreen.dart';
 
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: SplashScreen(),
     );
   }
 }
