@@ -2,7 +2,8 @@ import 'dart:async';
 
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterhive/Screens/LoginScreen.dart';
+import 'package:flutterhive/Screens/HomeScreen.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -18,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ()=>Navigator.pushReplacement(context,
             MaterialPageRoute(builder:
                 (context) =>
-                LoginScreen()
+                HomeScreen()
             )
         )
     );
@@ -55,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     textStyle: TextStyle(
                       fontSize: 30
                     ),),
-                    FlickerAnimatedText('Hive with Flutter',
+                    FlickerAnimatedText('Contacts',
                       textStyle: TextStyle(
                           fontSize: 30
                       ),),
